@@ -1,9 +1,17 @@
 // 4th part
+$('p').css('background', 'purple');
+$('.second').toggleClass('hidden');
 
-$('div').css('background', 'purple');
+$('p').text('<strong>hello world</strong>');
 
+$('p').html('<strong>Hello world</strong>');
+$('p').append('<strong> another</strong>');
 
+// $('div').remove();
 
+$('button').click(() => {
+    $('.first').toggleClass('hidden')
+});
 
 
 
