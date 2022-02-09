@@ -1,3 +1,15 @@
+// 4th part
+
+$('div').css('background', 'purple');
+
+
+
+
+
+
+
+
+//from 1st part to the 3rd
 console.log("Break until 17:10")
 console.log("This is JavaScript");
 let colors = ["orange", "blue", "green", "black", "white", "red"];
